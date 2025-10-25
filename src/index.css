@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+```
+4. Commit
+
+**2d. Create `src/App.js`:**
+1. Click **"Add file"** → **"Create new file"**
+2. Type: `src/App.js`
+3. Paste the full App.js code I gave you earlier (the long one with all the React component code)
+4. Commit
+
+---
+
+### **Final Structure Should Be:**
+```
+lead-audit-tool/
+├── public/
+│   └── index.html           ← Only this in public
+├── src/
+│   ├── index.js             ← At root src level
+│   ├── index.css            ← At root src level
+│   └── App.js               ← At root src level
+├── package.json
+├── tailwind.config.js
+└── README.md
